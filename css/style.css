@@ -1,0 +1,768 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&family=Oxanium:wght@300;500;600&family=Poppins:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("../img/homepage.png") no-repeat;
+  background-size: 100% 100%;
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Oxanium", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Space Mono", monospace;
+}
+.learn_more {
+  background: url("../img/learn\ more.png") no-repeat;
+  background-size: contain;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff !important;
+  text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  width: 361px;
+  padding-top: 22px;
+  height: 75.5px;
+}
+h2 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 52px !important;
+  line-height: 56px !important;
+  color: #ffffff;
+}
+h2 span {
+  color: #34d178;
+}
+p {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff !important;
+}
+.dollar_text {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #34d178;
+}
+/* header */
+header .nav-link {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff !important;
+  margin-right: 64px;
+}
+header .get_started {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #34d178 !important;
+  text-decoration: none !important;
+}
+
+/* hero */
+.hero {
+  margin-top: 135px;
+  margin-bottom: 50px;
+}
+header .hero h1 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  color: #f5f5f5;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.7);
+}
+header .hero h1 span {
+  color: #34d178;
+}
+
+header .learn_more {
+  margin-top: 45px;
+  background: url("../img/learn\ more.png") no-repeat;
+  background-size: contain;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff !important;
+  text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  width: 361px;
+  padding-top: 22px;
+  height: 75.5px;
+}
+/* !hero */
+
+/* !header */
+
+/* artificial_intelligence */
+.artificial_intelligence .left .get_started {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 50px;
+  color: #34d178;
+}
+.artificial_intelligence .right p {
+  margin-top: 50px;
+}
+.artificial_intelligence .right p span {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #34d178;
+}
+.artificial_intelligence .right {
+  margin-top: 165px;
+}
+.artificial_intelligence .right .box {
+  margin-top: 115px;
+}
+.artificial_intelligence .right .box_content h6 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.artificial_intelligence .right .box_content {
+  background: url("../img/Vector\ 11.svg") no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 267.5px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.artificial_intelligence .right .box_content p {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 32px;
+  z-index: 1;
+  position: relative;
+}
+/* !artificial_intelligence */
+
+/* Introducing you */
+.introducing {
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+.introducing h2 {
+  margin-bottom: 50px;
+}
+.introducing p {
+  margin-bottom: 45px;
+}
+.introducing .right a {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #e9fff3 !important;
+  margin-right: 10px;
+}
+.introducing .right p {
+  margin: 0 !important;
+}
+.introducing .right .green_text {
+  color: #34d178 !important;
+}
+/* Introducing you */
+
+/* Investment */
+.investment {
+  margin-bottom: 235px;
+}
+.investment h2 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 56px;
+  color: #ffffff;
+}
+.investment .left p {
+  margin-top: 55px;
+  margin-bottom: 70px;
+}
+.investment .left .learn_more {
+  padding-top: 20px;
+}
+
+.investment .right td {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+.investment .less_profit {
+  color: #eb5757 !important;
+}
+.investment .profit {
+  color: #34d178 !important;
+}
+.investment .right thead {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #34d178;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+.investment tbody {
+  position: relative;
+}
+.investment tbody::before {
+  position: absolute;
+  content: url("../img/Vector\ 15.png");
+}
+.investment tbody::after {
+  position: absolute;
+  content: url("../img/Vector\ 16.png");
+  right: 0;
+  top: 0;
+}
+/* !Investment */
+
+/* <!-- Via trading desk --> */
+.trading_desk {
+  background: url("../img/Group\ 28.png") no-repeat;
+  /* background-size: cover; */
+  padding-top: 135px;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+.trading_desk_main_box {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+.trading_desk_box_content {
+  background: url("../img/Rectangle\ 382.png") center no-repeat;
+  background-size: contain;
+  height: 288px;
+  width: 100%;
+  text-align: center;
+}
+.trading_desk .learn_more {
+  margin-top: 21px;
+  padding-top: 20px;
+}
+/* <!-- !Via trading desk --> */
+
+/* The whole world */
+.world {
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.world p {
+  margin-top: 56px;
+  margin-bottom: 66px;
+}
+.world .learn_more {
+  padding-top: 20px;
+}
+/* !The whole world */
+
+/* Start your accquaintance */
+.accquaintance {
+  margin-bottom: 120px;
+}
+.accquaintance p {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: 52px;
+  margin-bottom: 95px;
+}
+.accquaintance .box_content {
+  background: url("../img/Vector\ 11.svg") no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 267.5px;
+  padding-top: 47px;
+  padding-left: 50px;
+  padding-right: 44px;
+  padding-bottom: 10px;
+}
+.accquaintance .box_content h1 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 70px;
+  color: #ffffff;
+}
+.accquaintance .box_content h5 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.accquaintance .box_content h6 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 23px;
+  padding-right: 44px;
+}
+/* !Start your accquaintance */
+
+/* Latest Platform News */
+.news {
+  margin-bottom: 160px;
+  padding-left: 50px;
+}
+.news h2 {
+  margin-bottom: 30px;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 56px;
+  color: #ffffff;
+}
+.news .learn_more {
+  padding-top: 20px;
+}
+.news .right {
+  background: url("../img/unsplash_fiXLQXAhCfk.png") no-repeat;
+  width: 100%;
+  height: 288px;
+  padding-top: 172px;
+  padding-left: 72px;
+}
+.news .right h4 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.news .right .green_text {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #34d178 !important;
+}
+/* !Latest Platform News */
+
+/* footer */
+footer h5 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+footer .left {
+  margin-top: 26px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff !important;
+}
+footer ul li .active {
+  color: #34d178 !important;
+}
+footer .copyright {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+footer .copyright h4 {
+  text-align: center;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #f2f2f2;
+  text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+}
+footer .copyright h6 {
+  text-align: center;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #f2f2f2;
+}
+
+/* !footer */
+
+/* responsive for mobile */
+
+@media screen and (max-width: 999px) {
+  body {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  h2 {
+    font-weight: 500 !important;
+    font-size: 34px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  .learn_more {
+    width: 100% !important;
+    padding-top: 20px;
+    height: 75.5px;
+  }
+  .hero {
+    margin-top: 90px;
+  }
+  .artificial_intelligence .right {
+    margin-top: 120px;
+  }
+  .artificial_intelligence .right .box_content {
+    min-height: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .artificial_intelligence .right .box_content h6 {
+    font-size: 16px !important;
+  }
+  .artificial_intelligence .right .box_content p {
+    font-size: 12px !important;
+    margin-top: 20px !important;
+  }
+  .introducing {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .investment .right thead {
+    font-size: 12px;
+  }
+  .investment .right td {
+    font-size: 10px;
+  }
+  .investment {
+    margin-bottom: 100px;
+  }
+  .trading_desk {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    background-size: cover;
+  }
+  .accquaintance .box_content {
+    background-size: contain;
+    width: 100%;
+    height: 100% !important;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 34px;
+    padding-bottom: 10px;
+  }
+  .accquaintance .box_content h1 {
+    font-size: 40px;
+  }
+  .accquaintance .box_content h5 {
+    font-size: 16px;
+  }
+  .accquaintance .box_content h6 {
+    font-family: Oxanium;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 23px;
+    padding-right: 44px;
+  }
+  .news {
+    margin-bottom: 100px;
+    padding-left: 0px;
+  }
+  .news .right {
+    background: url("../img/unsplash_fiXLQXAhCfk.png") no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+/* !responsive for mobile */
+
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+  body {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  header .nav-link {
+    margin-right: 40px;
+  }
+  .artificial_intelligence .right .box_content {
+    background-size: contain;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
+  .artificial_intelligence .right .box_content p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .accquaintance .box_content {
+    background-size: 100% 100%;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+  }
+  .artificial_intelligence .right .box_content h6 {
+    font-size: 16px;
+  }
+  .accquaintance .box_content h1 {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  .news .right {
+    background: url(../img/unsplash_fiXLQXAhCfk.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 172px;
+    padding-left: 72px;
+  }
+}
+
+/* Register form page */
+.register_form {
+  background: url("../img/registration.png") no-repeat;
+  background-size: 100% 100% !important;
+  padding-left: 250px !important;
+  padding-right: 250px !important;
+}
+.register_form .login {
+  background: url("../img/login-bg.png") no-repeat;
+  /* background-size: 100% 100%; */
+  min-height: 622px;
+  padding-left: 76px !important;
+  padding-top: 66px;
+  padding-right: 85px !important;
+}
+
+.register_form h4 {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 41px;
+}
+.register_form label {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #34d178;
+  margin-bottom: 15px;
+}
+.register_form .register h2 {
+  margin-top: 135px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.register_form label a {
+  color: #34d178;
+  text-decoration: underline;
+  text-align: right !important;
+}
+.register_form .login input {
+  max-width: 475px;
+  height: 68px;
+  color: #ffffff !important;
+  background: #1a1f25;
+  border: 0;
+  backdrop-filter: blur(64px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+}
+
+.register_form .login button {
+  margin-top: 50px;
+}
+
+/* new user registration */
+.register_form .new_register {
+  background: url("../img/user-reg-bg.png") no-repeat;
+  /* background-size: 100% 100%; */
+  padding-top: 66px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.register_form .new_register h4 {
+  color: #34d178;
+}
+.register_form .new_register input {
+  max-width: 273px;
+  height: 68px;
+  background: #ffffff;
+  backdrop-filter: blur(64px);
+  border: 0;
+  border-radius: 10px;
+}
+.register_form .new_register label {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff !important;
+  margin-bottom: 15px;
+}
+.register_form .new_register .green_text {
+  color: #34d178 !important;
+}
+.register_form .new_register input[type="checkbox"] {
+  width: 19px !important;
+  height: 19px !important;
+  background: #34d178 !important;
+}
+.register_form .new_register input[type="checkbox"]:checked {
+  width: 19px !important;
+  height: 19px !important;
+  background: #34d178 !important;
+  -webkit-appearance: none;
+  border-radius: 0%;
+}
+/* !new user registration */
+
+/* !Register form page */
+
+/* admin_panel */
+.admin_panel {
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+}
+.admin_panel .welcome_box1 {
+  width: 514px;
+  height: 273px;
+  display: flex;
+  padding: 32px 44px 33px 47px;
+  margin-top: 127px;
+  background: url("../img/Vector\ 11.png") no-repeat;
+  background-size: contain;
+}
+/* !admin_panel */
+
+/* media query for mobile registration form */
+@media screen and (max-width: 999px) {
+  .register_form {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .register_form .register h2 {
+    margin-top: 90px;
+  }
+  .register_form .register .login {
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .register_form .register .login .learn_more {
+    height: auto;
+    width: 100% !important;
+    background-size: 100% 100%;
+  }
+  .register_form .register .new_register {
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .register_form .register .new_register .learn_more {
+    height: auto;
+    background-size: 100% 100%;
+  }
+}
+/* !media query for mobile registration form */
+
+/* media query for laptop registration form */
+
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+  .register_form {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+/* !media query for laptop registration form */
